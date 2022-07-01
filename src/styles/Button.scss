@@ -1,0 +1,33 @@
+$primary-color : #1b1b32;
+$secondary-color: #fcb229;
+
+
+.button-container {
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: $primary-color;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover {
+        background-color: #00471b;
+    }
+}
+
+
+.operator {
+    background-color: $secondary-color;
+
+    &:hover {
+        background-color: #ff6600;
+    }
+}
