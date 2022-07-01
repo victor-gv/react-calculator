@@ -1,6 +1,4 @@
-$primary-color : #1b1b32;
-$secondary-color: #fcb229;
-
+@import '../variables';
 
 .button-container {
     height: 83px;
@@ -19,7 +17,7 @@ $secondary-color: #fcb229;
     user-select: none;
 
     &:hover {
-        background-color: #00471b;
+        background-color: $green;
     }
 }
 
@@ -28,6 +26,6 @@ $secondary-color: #fcb229;
     background-color: $secondary-color;
 
     &:hover {
-        background-color: #ff6600;
+        background-color: $orange;
     }
 }

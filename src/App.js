@@ -1,6 +1,7 @@
-import './App.css';
+import './styles/app/App.css';
 import logoVictor from './images/logo-victor.png'
-import Button from './components/buttons'
+import Button from './components/Buttons'
+import Screen from './components/Screen'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      </div>
 
      <div className="calculator-container">
+      <Screen />
       <div className="row">
         <Button>1</Button>
         <Button>2</Button>

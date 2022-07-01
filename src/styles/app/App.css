@@ -9,14 +9,13 @@
   align-items: center;
 }
 
-
 .logo-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.calculator-container{
+.calculator-container {
   width: 400px;
   height: 600px;
   padding: 14px;
@@ -30,4 +29,4 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
+}/*# sourceMappingURL=App.css.map */
