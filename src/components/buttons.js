@@ -10,7 +10,8 @@ function Button(props){
 
     return (
         <div
-        className={`button-container ${isOperator(props.children) ? 'operator' : ''}`.trimEnd()}>
+        className={`button-container ${isOperator(props.children) ? 'operator' : ''}`.trimEnd()}
+        onClick = {() => props.manageClick(props.children)}>
             {props.children}
         </div>
         //With trimEnd() we eliminate the empty space at the end, because if isOperator is false, we don't want to add any extra class

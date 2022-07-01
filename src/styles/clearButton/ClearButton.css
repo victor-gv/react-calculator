@@ -3,7 +3,7 @@
   font-size: 1.6em;
   display: flex;
   flex: 1;
-  background-color: #ff6600;
+  background-color: #ac0246;
   margin-top: 8px;
   justify-content: center;
   align-items: center;
@@ -14,5 +14,5 @@
   cursor: pointer;
 }
 .clear-button:hover {
-  background-color: #ac0246;
+  background-color: #ebb000;
 }/*# sourceMappingURL=ClearButton.css.map */
