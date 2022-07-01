@@ -1,0 +1,21 @@
+@import '../variables';
+
+.clear-button {
+    height: 80px;
+    font-size: 1.6em;
+    display: flex;
+    flex: 1;
+    background-color: $orange;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    border-radius: 45px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $red;
+    }
+}

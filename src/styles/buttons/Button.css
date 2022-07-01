@@ -18,11 +18,11 @@
           user-select: none;
 }
 .button-container:hover {
-  background-color: #00471b;
+  background-color: #5a01a7;
 }
 
 .operator {
-  background-color: #fcb229;
+  background-color: #ebb000;
 }
 .operator:hover {
   background-color: #ff6600;
