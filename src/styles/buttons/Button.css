@@ -26,4 +26,13 @@
 }
 .operator:hover {
   background-color: #ff6600;
+}
+
+.equal-sign {
+  background-color: #ebb000;
+  border: 2px solid black;
+  color: rgb(255, 255, 255);
+}
+.equal-sign:hover {
+  background-color: #ac0246;
 }/*# sourceMappingURL=Button.css.map */

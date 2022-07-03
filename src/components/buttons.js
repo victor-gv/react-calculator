@@ -8,9 +8,13 @@ function Button(props){
         //if the three conditions get accomplished, then isOperator would be true
     };
 
+    const isEqualSign = (value) => {
+        return value === '=';
+    }
+
     return (
         <div
-        className={`button-container ${isOperator(props.children) ? 'operator' : ''}`.trimEnd()}
+        className={`button-container ${isOperator(props.children) ? 'operator' : ''} ${isEqualSign(props.children) ? 'equal-sign' : ''}`.trimEnd()}
         onClick = {() => props.manageClick(props.children)}>
             {props.children}
         </div>
