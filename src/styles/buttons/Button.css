@@ -22,17 +22,19 @@
 }
 
 .operator {
-  background-color: #025e25;
+  background-color: rgba(27, 27, 50, 0.5647058824);
+  border: 2.5px solid #1b1b32;
 }
 .operator:hover {
   background-color: #ff6600;
+  border: 2.5px solid white;
 }
 
 .equal-sign {
-  background-color: #ebb000;
-  border: 2px solid black;
-  color: rgb(255, 255, 255);
+  border: 2.5px solid #1b1b32;
+  background-color: rgba(27, 27, 50, 0.5647058824);
 }
 .equal-sign:hover {
-  background-color: #ac0246;
+  background-color: #ff6600;
+  border: 2.5px solid white;
 }/*# sourceMappingURL=Button.css.map */

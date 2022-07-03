@@ -23,19 +23,21 @@
 
 
 .operator {
-    background-color: $green;
+    background-color: #1b1b3290;
+    border: 2.5px solid $primary-color;
 
     &:hover {
-        background-color: $orange
+        background-color: $orange;
+        border: 2.5px solid white;
     }
 }
 
 .equal-sign {
-    background-color: $yellow;
-    border: 2px solid black;
-    color: rgb(255, 255, 255);
+    border: 2.5px solid $primary-color;
+    background-color: #1b1b3290;
 
     &:hover {
-        background-color: $red;
+        background-color: $orange;
+        border: 2.5px solid white;
     }
 }
