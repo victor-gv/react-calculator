@@ -1,6 +1,6 @@
 import './styles/app/App.css';
 import logoVictor from './images/logo-victor.png'
-import Button from './components/Buttons'
+import Button from './components/buttons'
 import Screen from './components/Screen'
 import ClearButton from './components/ClearButton';
 import { useState } from 'react';
